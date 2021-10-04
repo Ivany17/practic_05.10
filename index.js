@@ -38,3 +38,88 @@
 // console.log(building.name);
 // console.log(building.isBrick);
 // console.log(building.flours);
+
+
+// function Cat(name, isMale, color, breed, age){
+//     this.name = name;
+//     this.isMale = isMale;
+//     this.color = color;
+//     this.breed = breed;
+//     this.age = age;
+//     this.talk = function(){
+//         return 'meow';
+//     }
+// };
+
+// const newCat = new Cat('Mukha', false, 'black and white', 'yard', 2);
+// console.log(newCat.name+' tells '+ newCat.talk());
+
+
+// function User(name, sname,age){
+//     this.name = name;
+//     this.sname = sname;
+//     this.age = age;
+//     this.fullName = function(){
+//         return this.name+' '+this.sname;
+//     }
+// };
+
+// const oneUser = new User('Olha', 'Ivanova', 23);
+
+// const twoUser = new User('Olexandr', 'Martynov', 25);
+
+// const threeUser = new User('Anastasia', 'Veselova', 22);
+
+// console.log(oneUser.fullName());
+
+
+// function Country(name, population, area){
+//     this.name = name;
+//     this.population = population;
+//     this.area = area;
+//     this.getDensity = function(){
+//         return this.population/this.area;
+//     }
+// };
+
+// const italyCountry = new Country('Italy', 60317000
+
+// , 302);
+// const greeceCountry = new Country('Greece', 10718000, 132);
+// const franceCountry = new Country(('France', 67413000, 641));
+
+// console.log(italyCountry.getDensity());
+
+
+// function Auto(name, maxSpeed){
+//     this.name = name;
+//     this.maxSpeed = maxSpeed;
+//     this.speed = 0;
+//     this.accelerate = function(value){
+//         if(value<0){
+//             return false;
+//         }
+//         this.speed += value;
+//         if(this.speed>=this.maxSpeed){
+//             return (this.speed = maxSpeed);
+//         } 
+//         return this.speed;
+//     };
+//     this.deaccelerate = function(value){
+//         if(value<0){
+//             return false;
+//         }
+//         this.speed -= value;
+//         if(this.speed<0){
+//             return (this.speed = 0);
+//         } 
+//         return this.speed;
+//     };
+//     this.stop = function(){
+//         return (this.speed = 0);
+//     };
+// };
+
+// const car = new Auto('BMW', 250);
+
+
