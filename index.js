@@ -164,3 +164,15 @@
 // }
 
 // console.log(sayHello(user));
+
+
+const obj = {
+    name: 'pen',
+    'is written': true,
+    11: 78,
+}
+
+console.log(obj[11]);
+console.log(obj['11']);
+console.log(obj['is written']);
+console.log(obj['name']);
