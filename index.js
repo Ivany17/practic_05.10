@@ -123,30 +123,44 @@
 // const car = new Auto('BMW', 250);
 
 
-function CoffeMachine(brand, maxVolume){
-    this.brand = brand;
-    this.maxVolume = maxVolume;
-    this.volume = 0;
-    this.addWater = function(value){
-        if(value<0){
-            return false;
-        }
-        this.volume += value;
-        if(this.volume>=this.maxVolume){
-            return (this.volume = maxVolume);
-        } 
-        return this.volume;
-    };
-    this.makeCoffee = function(value){
-        if(value<0 || this.volume<value){
-            return false;
-        }
-        this.volume -= value;
-        if(this.volume<0){
-            return (this.volume = 0);
-        } 
-        return this.volume;
-    };
-};
+// function CoffeMachine(brand, maxVolume){
+//     this.brand = brand;
+//     this.maxVolume = maxVolume;
+//     this.volume = 0;
+//     this.addWater = function(value){
+//         if(value<0){
+//             return false;
+//         }
+//         this.volume += value;
+//         if(this.volume>=this.maxVolume){
+//             return (this.volume = maxVolume);
+//         } 
+//         return this.volume;
+//     };
+//     this.makeCoffee = function(value){
+//         if(value<0 || this.volume<value){
+//             return false;
+//         }
+//         this.volume -= value;
+//         if(this.volume<0){
+//             return (this.volume = 0);
+//         } 
+//         return this.volume;
+//     };
+// };
 
-const machine = new CoffeMachine('Intezit', 300);
+// const machine = new CoffeMachine('Intezit', 300);
+
+
+// const user = {
+//     firstName: 'Elon',
+//     lastName: 'Musk',
+//     age: 50,
+//     isMale: true,
+// }
+
+// const sayHello = function(obj){
+//     return `Hello, ${obj.firstName} ${obj.lastName}!`;
+// }
+
+// console.log(sayHello(user));
